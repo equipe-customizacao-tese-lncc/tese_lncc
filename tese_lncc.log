@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.4)  24 JUN 2016 16:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.4)  24 JUN 2016 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1203,34 +1203,35 @@ Underfull \hbox (badness 1721) in paragraph at lines 113--113
 []|\T1/lmr/bx/n/10 Sistemas de
  []
 
-[28] <abntex2-modelo-img-grafico.pdf, id=324, 847.165pt x 314.17375pt>
-File: abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
+[28] <img/abntex2-modelo-img-grafico.pdf, id=324, 847.165pt x 314.17375pt>
+File: img/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
 
-<use abntex2-modelo-img-grafico.pdf>
-Package pdftex.def Info: abntex2-modelo-img-grafico.pdf used on input line 223.
-
+<use img/abntex2-modelo-img-grafico.pdf>
+Package pdftex.def Info: img/abntex2-modelo-img-grafico.pdf used on input line 
+223.
 (pdftex.def)             Requested size: 423.58145pt x 157.08649pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 229.
 
-<abntex2-modelo-img-marca.pdf, id=331, 227.51701pt x 72.2695pt>
-File: abntex2-modelo-img-marca.pdf Graphic file (type pdf)
+<img/abntex2-modelo-img-marca.pdf, id=331, 227.51701pt x 72.2695pt>
+File: img/abntex2-modelo-img-marca.pdf Graphic file (type pdf)
 
-<use abntex2-modelo-img-marca.pdf>
-Package pdftex.def Info: abntex2-modelo-img-marca.pdf used on input line 242.
+<use img/abntex2-modelo-img-marca.pdf>
+Package pdftex.def Info: img/abntex2-modelo-img-marca.pdf used on input line 24
+2.
 (pdftex.def)             Requested size: 204.76341pt x 65.04192pt.
 
 Overfull \hbox (22.76619pt too wide) in paragraph at lines 242--243
  [][] 
  []
 
-File: abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
-<use abntex2-modelo-img-grafico.pdf>
-Package pdftex.def Info: abntex2-modelo-img-grafico.pdf used on input line 249.
-
+File: img/abntex2-modelo-img-grafico.pdf Graphic file (type pdf)
+<use img/abntex2-modelo-img-grafico.pdf>
+Package pdftex.def Info: img/abntex2-modelo-img-grafico.pdf used on input line 
+249.
 (pdftex.def)             Requested size: 169.43pt x 62.83363pt.
- [29] [30 <./abntex2-modelo-img-grafico.pdf> <./abntex2-modelo-img-marca.pdf>] 
-[31]
+ [29] [30 <./img/abntex2-modelo-img-grafico.pdf> <./img/abntex2-modelo-img-marc
+a.pdf>] [31]
 Overfull \hbox (22.32773pt too wide) in paragraph at lines 379--379
 []   \T1/lmtt/m/n/12 \usepackage{indentfirst}      % Indenta o primeiro parágra
 fo de cada seção.[] 
@@ -1420,7 +1421,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 565.
  ) 
 Here is how much of TeX's memory you used:
  14442 strings out of 494884
- 214099 string characters out of 6176883
+ 214131 string characters out of 6176883
  473899 words of memory out of 5000000
  17010 multiletter control sequences out of 15000+600000
  105927 words of font info for 151 fonts, out of 8000000 for 9000
@@ -1444,7 +1445,7 @@ fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso
 12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb
 >
-Output written on tese_lncc.pdf (63 pages, 801464 bytes).
+Output written on tese_lncc.pdf (63 pages, 801470 bytes).
 PDF statistics:
  990 PDF objects out of 1000 (max. 8388607)
  865 compressed objects within 9 object streams
