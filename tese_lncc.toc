@@ -32,22 +32,22 @@
 \contentsline {section}{\numberline {2.15}Consulte o manual da classe \textsf {abntex2}}{37}{section.2.15}
 \contentsline {section}{\numberline {2.16}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{37}{section.2.16}
 \contentsline {subsection}{\numberline {2.16.1}Acentua\IeC {\c c}\IeC {\~a}o de refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{37}{subsection.2.16.1}
-\contentsline {chapter}{\chapternumberline {3}capitulo3}{39}{chapter.3}
-\contentsline {chapter}{\chapternumberline {4}capitulo4}{41}{chapter.4}
+\contentsline {chapter}{\chapternumberline {3}T\IeC {\'\i }tulo do Cap\IeC {\'\i }tulo 3}{39}{chapter.3}
+\contentsline {chapter}{\chapternumberline {4}T\IeC {\'\i }tulo do Cap\IeC {\'\i }tulo 4}{41}{chapter.4}
 \contentsline {chapter}{\chapternumberline {5}Conclus\IeC {\~a}o}{43}{chapter.5}
 \vspace {\cftbeforepartskip }
 \vspace {\cftbeforepartskip }
 \contentsline {chapter}{Refer\^encias}{45}{section*.16}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \contentsline {part}{Ap\^endices}{47}{section*.17}
-\contentsline {appendix}{\chapternumberline {A}apendiceA}{49}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice A}{49}{appendix.A}
 \contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{49}{section.A.1}
-\contentsline {appendix}{\chapternumberline {B}apendiceB}{51}{appendix.B}
-\contentsline {appendix}{\chapternumberline {C}apendiceC}{53}{appendix.C}
+\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice B}{51}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do ap\IeC {\^e}ndice C}{53}{appendix.C}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \contentsline {part}{Anexos}{55}{section*.18}
-\contentsline {appendix}{\chapternumberline {A}anexoA}{57}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}T\IeC {\'\i }tulo do anexo A}{57}{appendix.anexochapback.1}
 \contentsline {section}{\numberline {A.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o}{57}{section.anexochapback.1.1}
-\contentsline {appendix}{\chapternumberline {B}anexoB}{59}{appendix.anexochapback.2}
-\contentsline {appendix}{\chapternumberline {C}anexoC}{61}{appendix.anexochapback.3}
+\contentsline {appendix}{\chapternumberline {B}T\IeC {\'\i }tulo do anexo B}{59}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {C}T\IeC {\'\i }tulo do anexo C}{61}{appendix.anexochapback.3}
