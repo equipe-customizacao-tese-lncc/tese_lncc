@@ -1,0 +1,51 @@
+\chapter[Introdução]{Introdução}\label{cap_intro}
+
+Este documento e seu código-fonte são exemplos de referência de uso da classe
+\textsf{abntex2} e do pacote \textsf{abntex2cite}. O documento
+exemplifica a elaboração de trabalho acadêmico (tese, dissertação e outros do
+gênero) produzido conforme a ABNT NBR 14724:2011 \emph{Informação e documentação
+- Trabalhos acadêmicos - Apresentação}.
+
+Salientamos que este documento é uma costumização específica do modelo canônico 
+disponibilizado em \verb"http://www.abntex.net.br/" para atender à produção de 
+dissertações e teses do Programa de Pós-Graduação em Modelagem Computacional do
+Laboratório Nacional de Computação Científica.
+
+A expressão ``Modelo Canônico'' é utilizada para indicar que \abnTeX\ não é
+modelo específico de nenhuma universidade ou instituição, mas que implementa tão
+somente os requisitos das normas da ABNT. Uma lista completa das normas
+observadas pelo \abnTeX\ é apresentada em \citeonline{abntex2classe}. Além disso,
+este documento deve ser utilizado como complemento dos manuais do \abnTeX\
+\cite{abntex2classe,abntex2cite,abntex2cite-alf} e da classe \textsf{memoir}
+\cite{memoir}.
+
+A equipe de customização deste modelo de dissertação/tese elaborou este documento 
+de modo que você possa gerar as páginas-modelo do seu trabalho tais como, folha de
+rosto, folha com a ficha catalográfica, folha de aprovação, folha com dedicatória, 
+entre outras, a partir do arquivo principal \verb"XXXXXXXXXX.tex". Atente-se aos 
+campos de preenchimento e utilize o símbolo de porcentagem $\%$ para ativar/desativar
+uma linha de interesse. 
+
+Apesar do exposto no parágrafo anterior, a equipe de customização sugere que você não
+escreva o texto de sua dissertação/tese no arquivo principal. Ao invés disto, opte por 
+criar arquivos \verb".tex" separados, um para cada capítulo, salvando-os na pasta 
+\verb"capitulos" e chamando-os no arquivo principal via o comando 
+\verb"\include{capitulos/nome_do_arquivo}". Faça o mesmo se necessitar incluir apêndices
+e/ou anexos.
+
+O próximo capítulo ilustra o uso de comandos do \abnTeX e de \LaTeX. No final do capítulo,
+algumas referências bibliográficas foram acrescentadas visando exemplificar as diferentes
+formas de construí-las. Contudo, a construção de referências bibliográficas é feita em um
+arquivo específico o qual chamamos de \verb"bibliografia.bib". É este arquivo que você deve 
+utilizar para acrescentar as bibliografias que você citará no seu trabalho.
+
+Caso você tenha alguma sugestão para melhorar a customização feita, queira reportar algum 
+erro encontrado ou necessite de ajuda para utilizar este template, procure a equipe de 
+customização por meio dos contatos abaixo disponibilizados.
+
+
+\noindent Weslley da Silva Pereira\footnote{Sala 1A-15 - Ramal XXXX - E-mail: weslleyp@lncc.br}, Lucas dos Santos Fernandez\footnote{Sala 1A-37 - Ramal 6135 - E-mail: lucasf@lncc.br} e Fortià Vila Verges\footnote{Sala 1A-37 - Ramal 6135 - E-mail: fortiav@lncc.br}\\
+\noindent \textit{Equipe de customização do modelo de dissertação/tese do LNCC}
+
+
+

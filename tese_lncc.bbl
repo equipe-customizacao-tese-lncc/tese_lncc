@@ -1,0 +1,177 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[Araujo 2012]{araujo2012}
+\abntrefinfo{Araujo}{ARAUJO}{2012}
+{ARAUJO, L.~C.
+\emph{Configura{\c c}{\~a}o}: uma perspectiva de {A}rquitetura da {I}nforma{\c
+  c}{\~a}o da {E}scola de {B}ras{\'\i}lia.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Bras{\'\i}lia,
+  Bras{\'\i}lia, mar. 2012.}
+
+\bibitem[Araujo 2015]{abntex2classe}
+\abntrefinfo{Araujo}{ARAUJO}{2015a}
+{ARAUJO, L.~C. \emph{A classe abntex2: Modelo can{\^o}nico de trabalhos
+  acad{\^e}micos brasileiros compat{\'\i}vel com as normas ABNT NBR 14724:2011,
+  ABNT NBR 6024:2012 e outras}.
+[S.l.], 2015. Dispon{\'\i}vel em: \url{http://www.abntex.net.br/}.}
+
+\bibitem[Araujo 2015]{abntex2cite}
+\abntrefinfo{Araujo}{ARAUJO}{2015b}
+{ARAUJO, L.~C. \emph{O pacote abntex2cite: Estilos bibliogr{\'a}ficos
+  compat{\'\i}veis com a ABNT NBR 6023}.
+[S.l.], 2015. Dispon{\'\i}vel em: \url{http://www.abntex.net.br/}.}
+
+\bibitem[Araujo 2015]{abntex2cite-alf}
+\abntrefinfo{Araujo}{ARAUJO}{2015c}
+{ARAUJO, L.~C. \emph{O pacote abntex2cite: t{\'o}picos espec{\'\i}ficos da ABNT
+  NBR 10520:2002 e o estilo bibliogr{\'a}fico alfab{\'e}tico (sistema
+  autor-data)}.
+[S.l.], 2015. Dispon{\'\i}vel em: \url{http://www.abntex.net.br/}.}
+
+\bibitem[Associa{\c c}\~ao Brasileira de Normas T\'ecnicas 2002]{NBR10520:2002}
+\abntrefinfo{ABNT}{ABNT}{2002}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 10520}:
+  Informa{\c c}\~ao e documenta{\c c}\~ao --- apresenta{\c c}\~ao de cita{\c
+  c}\~oes em documentos.
+Rio de Janeiro, 2002. 7~p.}
+
+\bibitem[Associa{\c c}\~ao Brasileira de Normas T\'ecnicas 2003]{NBR6028:2003}
+\abntrefinfo{ABNT}{ABNT}{2003}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 6028}: Resumo -
+  apresenta{\c c}{\~a}o.
+Rio de Janeiro, 2003. 2~p.}
+
+\bibitem[Associa{\c c}\~ao Brasileira de Normas T\'ecnicas 2005]{NBR14724:2005}
+\abntrefinfo{ABNT}{ABNT}{2005}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 14724}:
+  Informa{\c c}\~ao e documenta{\c c}\~ao --- trabalhos acad\^emicos ---
+  apresenta{\c c}\~ao.
+Rio de Janeiro, 2005. 9~p.}
+
+\bibitem[Associa{\c c}\~ao Brasileira de Normas T\'ecnicas 2011]{NBR14724:2011}
+\abntrefinfo{ABNT}{ABNT}{2011}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 14724}:
+  Informa{\c c}\~ao e documenta{\c c}\~ao --- trabalhos acad\^emicos ---
+  apresenta{\c c}\~ao.
+Rio de Janeiro, 2011. 15~p.}
+
+\bibitem[Associa{\c c}\~ao Brasileira de Normas T\'ecnicas 2012]{NBR6024:2012}
+\abntrefinfo{ABNT}{ABNT}{2012}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 6024}:
+  Numera{\c c}\~ao progressiva das se{\c c}\~oes de um documento.
+Rio de Janeiro, 2012. 4~p.}
+
+\bibitem[Atkinson e Han 2004]{atkinson2004}
+\abntrefinfo{Atkinson e Han}{ATKINSON; HAN}{2004}
+{ATKINSON, K.; HAN, W. \emph{Elementary numerical analysis}. New York: John
+  Wiley \& Sons, Inc., 2004.}
+
+\bibitem[Barbosa et al. 2009]{barbosa2009}
+\abntrefinfo{Barbosa et al.}{BARBOSA et al.}{2009}
+{BARBOSA, A.~C. et al. Experiments using a finite element formulation of
+  incompressible miscible displacements in porous media. In:  \emph{Congresso
+  Nacional de Matem\'{a}tica Aplicada e Computacional}. Cuiab\'{a}: Anais do
+  XXXII Congresso Nacional de Matem\'{a}tica Aplicada e Computacional (XXXII
+  CNMAC), 2009. p. 634--640.}
+
+\bibitem[Becker, Carey e Oden 1981]{becker1981}
+\abntrefinfo{Becker, Carey e Oden}{BECKER; CAREY; ODEN}{1981}
+{BECKER, E.~B.; CAREY, G.~F.; ODEN, J.~T. \emph{Finite elements}: an
+  introduction. New Jersey: Prentice-Hall, Inc., 1981.}
+
+\bibitem[Braams 2008]{babel}
+\abntrefinfo{Braams}{BRAAMS}{2008}
+{BRAAMS, J. \emph{Babel, a multilingual package for use with LATEX's standard
+  document classes}.
+[S.l.], 2008. Dispon{\'\i}vel em:
+  \url{http://mirrors.ctan.org/info/babel/babel.pdf}. Acesso em: 17 fev. 2013.}
+
+\bibitem[Costa et al. 2015]{costa2015}
+\abntrefinfo{Costa et al.}{COSTA et al.}{2015}
+{COSTA, E.~C. et al. Time centrality in dynamic complex networks.
+\emph{Advances in Complex Systems}, v.~18, n. 07n08, p. 1550023, 2015.
+Dispon{\'\i}vel em:
+  \url{http://www.worldscientific.com/doi/abs/10.1142/S021952591550023X}.}
+
+\bibitem[Costa 2009]{costa2009}
+\abntrefinfo{Costa}{COSTA}{2009}
+{COSTA, F.~P.
+\emph{Um modelo iterativo em elementos finitos estabilizados para solu{\c
+  c}{\~a}o de escoamento acoplado}: canal com superf{\'\i}cie livre e meio
+  poroso subsuperficial.
+147~f. Tese (Doutorado em Modelagem Computacional) --- Laborat{\'o}rio Nacional
+  de Computa{\c c}{\~a}o Cient{\'\i}fica, Petr{\'o}polis, RJ, ago. 2009.}
+
+\bibitem[Fehling et al. 2014]{fehling2014}
+\abntrefinfo{Fehling et al.}{FEHLING et al.}{2014}
+{FEHLING, C. et al. \emph{Cloud computing patterns}: fundamentals to design,
+  build, and manage cloud applications. New York: Springer Publishing Company,
+  Incorporated, 2014.
+ISBN 3709115671, 9783709115671.}
+
+\bibitem[Garcia 2007]{garcia2007}
+\abntrefinfo{Garcia}{GARCIA}{2007}
+{GARCIA, M.
+\emph{Uma filogenia mitocondrial de metazo{\'a}rios}.
+212~f. Disserta\c{c}\~{a}o (Mestrado em Modelagem Computacional) ---
+  Laborat{\'o}rio Nacional de Computa{\c c}{\~a}o Cient{\'\i}fica,
+  Petr{\'o}polis, RJ, jun. 2007.}
+
+\bibitem[Harder, Paredes e Valentin 2015]{harder2015}
+\abntrefinfo{Harder, Paredes e Valentin}{HARDER; PAREDES; VALENTIN}{2015}
+{HARDER, C.; PAREDES, D.; VALENTIN, F. On a multiscale hybrid-mixed method for
+  advective-reactive dominated problems with heterogeneous coefficients.
+\emph{Multiscale Modeling \& Simulation}, v.~13, n.~2, p. 491--518, 2015.}
+
+\bibitem[IBGE 1993]{ibge1993}
+\abntrefinfo{IBGE}{IBGE}{1993}
+{IBGE. \emph{Normas de apresenta{\c c}{\~a}o tabular}. 3. ed. Rio de Janeiro:
+  Centro de Documenta{\c c}{\~a}o e Dissemina{\c c}{\~a}o de Informa{\c
+  c}{\~o}es. Funda{\c c}{\~a}o Intituto Brasileiro de Geografia e
+  Estat{\'\i}stica, 1993. Acesso em: 21 ago 2013.}
+
+\bibitem[Santos e Silva 2013]{santos2013}
+\abntrefinfo{Santos e Silva}{SANTOS; SILVA}{2013}
+{SANTOS, I. L.~D.; SILVA, G.~N. Uma classe de problemas de controle \'{o}timo
+  em escalas temporais. In:  \emph{Anais da Confer{\^e}ncia Brasileira de
+  Din{\^a}mica, Controle e Aplica{\c c}{\~o}es (DINCON)}. Fortaleza: Proceeding
+  Series of the Brazilian Society of Computational and Applied Mathematics,
+  2013. v.~1. DOI:10.5540/03.2013.001.01.0177.}
+
+\bibitem[Tavares et al. 2016]{tavares2016}
+\abntrefinfo{Tavares et al.}{TAVARES et al.}{2016}
+{TAVARES, T. C.~L. et al. Metagenomic analysis of sediments under seaports
+  influence in the equatorial atlantic ocean.
+\emph{Science of The Total Environment}, v. 557–558, p. 888--900, 2016.
+ISSN 0048-9697.
+Dispon{\'\i}vel em:
+  \url{http://www.sciencedirect.com/science/article/pii/S0048969716305666}.}
+
+\bibitem[{van} Gigch e Pipino 1986]{van86}
+\abntrefinfo{{van} Gigch e Pipino}{{van} GIGCH; PIPINO}{1986}
+{{van} GIGCH, J.~P.; PIPINO, L.~L. In search for a paradigm for the discipline
+  of information systems.
+\emph{Future Computing Systems}, v.~1, n.~1, p. 71--97, 1986.}
+
+\bibitem[Wilson e Madsen 2010]{memoir}
+\abntrefinfo{Wilson e Madsen}{WILSON; MADSEN}{2010}
+{WILSON, P.; MADSEN, L. \emph{The Memoir Class for Configurable Typesetting -
+  User Guide}.
+Normandy Park, WA, 2010. Dispon{\'\i}vel em:
+  \url{http://mirrors.ctan.org/macros/latex/contrib/memoir/memman.pdf}. Acesso
+  em: 19 dez. 2012.}
+
+\bibitem[Xavier e Novotny 2015]{xavier2015}
+\abntrefinfo{Xavier e Novotny}{XAVIER; NOVOTNY}{2015}
+{XAVIER, M.~D. da S.; NOVOTNY, A.~A. An{\'a}lise de sensibilidade
+  topol{\'o}gica no processo de fraturamento hidr{\'a}ulico. In:
+  \emph{Ibero-Latin American Congress on Computational Methods in Engineering
+  (CILAMCE)}. Rio de Janeiro: Anais do XXXVI Congresso Ibero-Latino-Americano
+  de M{\'e}todos Computacionais em Engenharia, 2015.}
+
+\end{thebibliography}

@@ -1,0 +1,7 @@
+\chapter[apendiceC]{Título do apêndice C}\label{apendiceC}
+
+\lipsum[9-10]
+
+\section{Nam viverra ultrices magna}
+
+\includegraphics[width=12cm]{abntex2-modelo-livro-bandeirinha}
