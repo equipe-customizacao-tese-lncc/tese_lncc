@@ -1,4 +1,6 @@
-# LaTeX Template for creation of thesis and dissertations for LNCC.
+# LNCC LaTeX Template
+
+LaTeX Template for creation of thesis and dissertations for LNCC.
 
 ## Build
 
@@ -12,12 +14,19 @@ The build will be done in a random temporary directory in `/tmp`. After a succes
 
 ## Directory Structure
 
-  * tese_lncc.tex
-  * bibliography.bib
-  * Makefile
-  * abntex2lncc.sty
-  * tex
-      * files with tex extension included by `tese_lncc.tex`
-  * fig
-  	  * graphics files included by `tese_lncc.tex`
+```
+  +-tese_lncc.tex         main tex file
+  +-bibliography.bib      citation file
+  +-Makefile              build recipe
+  +-abntex2lncc.sty       lncc custom styles used by main tex file
+  +-tex
+      +-*.tex             files with tex extension included by tese_lncc.tex
+  +-fig
+  	  +-*.png, *.jpg,     graphics files included by tese_lncc.tex
+```
 
+The build directory structure will be flat, and maked by symbolic linkage, so include images or other tex files without subdirectories. Ex.:
+
+`\include{capitulo2}`
+
+`\includegraphics[width=\textwidth]{figA.jpg}`
