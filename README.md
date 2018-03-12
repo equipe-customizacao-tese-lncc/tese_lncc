@@ -27,6 +27,7 @@ The build will be done in a random temporary directory in `/tmp`. After a succes
 
 The build directory structure will be flat, and maked by symbolic linkage, so include images or other tex files without subdirectories. Ex.:
 
+~~`\include{tex/capitulo2}`~~
 `\include{capitulo2}`
 
 `\includegraphics[width=\textwidth]{figA.jpg}`
