@@ -26,6 +26,9 @@
 % ------------------------------------------------------------------------
 
 \documentclass[
+	% -- opções para output --
+	%draft,				% simplificado, sem figuras
+	final,				% final, mais demorado
 	% -- opções da classe memoir --
 	12pt,				% tamanho da fonte
 	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
@@ -56,6 +59,7 @@
 \usepackage{graphicx}			% Inclusão de gráficos
 \usepackage{microtype} 			% para melhorias de justificação
 \usepackage{abntex2lncc}		% Formatacao especifica do modelo do LNCC
+\usepackage{amsthm,thmtools}	% Teoremas e outras definições matemáticas
 % ---
 		
 % ---
@@ -72,6 +76,7 @@
 \usepackage{multirow}           % permite mesclar linhas e colunas em tabelas
 \usepackage{pdfpages}		% Inclui p\'aginas PDF de documentos externos
 \usepackage{amsmath,amssymb}	% Permite ambientes matem\'aticos e o uso do \eqref
+% ---
 
 % ---
 % CONFIGURAÇÕES DE PACOTES
@@ -95,11 +100,36 @@
 % ---
 
 % ---
+% Teoremas e outras definições matemáticas
+\declaretheorem[style=definition,name=Definição, parent=chapter, qed=\textemdash]{definition}
+\declaretheorem[style=definition,name=Observação, qed=\textnormal{\textemdash}]{remark}
+\declaretheorem[style=plain,name=Teorema, qed=\textnormal{\textemdash}]{theorem}
+\declaretheorem[style=plain,name=Proposição, qed=\textnormal{\textemdash}]{proposition}
+\declaretheorem[style=plain,name=Corolário, qed=\textnormal{\textemdash}]{corollary}
+\declaretheorem[style=plain,name=Axioma, qed=\textnormal{\textemdash}]{axiom}
+\declaretheorem[style=plain,name=Lema, qed=\textnormal{\textemdash}]{lemma}
+% ---
+
+% ---
+% Comandos auxiliares para simplificar a inclusão
+\newcommand{\texInput}[1]{\input{tex/#1}}
+\newcommand{\texInclude}[1]{\include{tex/#1}}
+\newcommand{\texIncludeonly}[1]{\includeonly{tex/#1}}
+% ---
+
+% ---
+% Exemplo de uso do texIncludeonly que inclui somente a introdução no output
+%\includeonly{introducao} % Usando o Makefile padrão
+%\texIncludeonly{introducao} % Sem o Makefile padrão
+% ---
+
+% ---
 % CONFIGURAÇÕES DE USUÁRIO
 % ---
 	
 % ---
 % Pasta principal de imagens e logo do LNCC
+\graphicspath{{fig/}}
 \logoLNCC{lncc}
 %{\centering \includegraphics[scale=1.0]{lncc}}
 % ---
@@ -475,11 +505,18 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % ----------------------------------------------------------
 % Capítulos
 % ----------------------------------------------------------
+
 \include{introducao}
 \include{capitulo2} 
 \include{capitulo3}
 \include{capitulo4}
 
+% ---
+% Alternativa sem o uso do Makefile padrão
+%\texInclude{introducao}
+%\texInclude{capitulo2} 
+%\texInclude{capitulo3}
+%\texInclude{capitulo4}
 % ---
 
 % ----------------------------------------------------------
@@ -493,6 +530,7 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % Conclusão
 % ---
 \include{conclusao}
+%\texInclude{conclusao} % Alternativa sem o uso do Makefile padrão
 % ---
 
 % ----------------------------------------------------------
@@ -528,9 +566,18 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 
 % Inclusão dos arquivos referentes aos apêndices
 % ----------------------------------------------------------
+
 \include{apendiceA}
 \include{apendiceB}
 \include{apendiceC}
+
+% ---
+% Alternativa sem o uso do Makefile padrão
+%\texInclude{apendiceA}
+%\texInclude{apendiceB}
+%\texInclude{apendiceC}
+% ---
+
 % ----------------------------------------------------------
 
 \end{apendicesenv}
@@ -550,9 +597,18 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 
 % Inclusão dos arquivos referentes aos anexos
 % ----------------------------------------------------------
+
 \include{anexoA}
 \include{anexoB}
 \include{anexoC}
+
+% ---
+% Alternativa sem o uso do Makefile padrão
+%\include{anexoA}
+%\include{anexoB}
+%\include{anexoC}
+% ---
+
 % ----------------------------------------------------------
 
 \end{anexosenv}
