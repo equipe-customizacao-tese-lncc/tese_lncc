@@ -96,6 +96,23 @@
 	\fi}%
 % ---
 
+% % ---
+% % Configurações do pacote backref no Ingles
+% % Usado sem a opção hyperpageref de backref
+% \renewcommand{\backrefpagesname}{Cited in:~}
+% % Texto padrão antes do número das páginas
+% \renewcommand{\backref}{}
+% % Define os textos da citação
+% \renewcommand*{\backrefalt}[4]{
+% 	\ifcase #1 %
+% 		Not cited.%
+% 	\or
+% 		Cited in page #2.%
+% 	\else
+% 		Cited #1 times in #2.%
+% 	\fi}%
+% % ---
+
 % ---
 % Teoremas e outras definições matemáticas
 \declaretheorem[style=definition,name=Definição, parent=chapter, qed=\textemdash]{definition}
