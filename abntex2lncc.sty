@@ -38,6 +38,7 @@
 \providecommand{\labelTitulo}{Título }
 \providecommand{\aprovadaPor}{Aprovada por: }
 \providecommand{\palavrasChave}{Palavras-chave}
+\providecommand{\presidenteDaBanca}{(Presidente)}
 %% ajusta nomes padroes do babel
 \newcommand{\listfigurenameNOVA}{Lista de figuras}
 
@@ -52,6 +53,7 @@
 	\renewcommand{\labelTitulo}{Title }
 	\renewcommand{\aprovadaPor}{Approved by: }
 	\renewcommand{\palavrasChave}{Keywords}
+	\renewcommand{\presidenteDaBanca}{(Chair of the Committee)}
 	\renewcommand{\listfigurenameNOVA}{List of figures}
 }
 \addto\captionsbrazil{% portugues-brasil
@@ -101,6 +103,9 @@
 
 % Para imprimir rótulo "orientadores"
 \providecommand{\imprimirOrientadoresRotulo}{Orientador{(}es{)}:}
+\addto\captionsenglish{% ingles
+	\renewcommand{\imprimirOrientadoresRotulo}{Advisor{(}s{)}:}
+}
 
 \providecommand{\imprimirNomeOrientador}{}
 \providecommand{\imprimirUltimoSobrenomeOrientador}{}
@@ -109,6 +114,13 @@
 	\renewcommand{\imprimirNomeOrientador}{#1} 
 	\renewcommand{\imprimirUltimoSobrenomeOrientador}{#2}
 	\orientador{#1{ }#2}
+}
+
+\newcommand{\coorientadores}[1][\coorientadorname]
+	{\large{e} \imprimircoorientador}
+\addto\captionsenglish{% ingles
+	\renewcommand{\coorientadores}[1][\coorientadorname]
+		{\large{and} \imprimircoorientador}
 }
 
 % ---
@@ -180,7 +192,7 @@
 
     {\large\imprimirOrientadoresRotulo~\imprimirorientador}
     \abntex@ifnotempty{\imprimircoorientador}{%
-      {\large{e }\imprimircoorientador}%
+      {\coorientadores}%
     }%
     \vspace*{\fill}
 
