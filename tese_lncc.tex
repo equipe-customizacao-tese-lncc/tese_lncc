@@ -36,6 +36,7 @@
 	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
 	oneside,			% para impressão em frente e verso use twoside
 	a4paper,			% tamanho do papel.
+	hyphens,            % Para quebrar linhas de url em footnotes
 	% -- opções da classe abntex2 --
 	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
 	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
@@ -57,7 +58,7 @@
 \usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
 \usepackage{lastpage}			% Usado pela Ficha catalográfica
 \usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
-\usepackage{color}			% Controle das cores
+\usepackage{color}			    % Controle das cores
 \usepackage{graphicx}			% Inclusão de gráficos
 \usepackage{microtype} 			% para melhorias de justificação
 \usepackage{amsthm,thmtools}	% Teoremas e outras definições matemáticas
@@ -522,6 +523,7 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % Capítulos
 % ----------------------------------------------------------
 
+% Inserir com o Makefile padrão
 \include{introducao}
 \include{capitulo2} 
 \include{capitulo3}
@@ -529,10 +531,10 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 
 % ---
 % Alternativa sem o uso do Makefile padrão
-%\texInclude{introducao}
-%\texInclude{capitulo2} 
-%\texInclude{capitulo3}
-%\texInclude{capitulo4}
+% \texInclude{introducao}
+% \texInclude{capitulo2} 
+% \texInclude{capitulo3}
+% \texInclude{capitulo4}
 % ---
 
 % ----------------------------------------------------------
@@ -545,8 +547,8 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % ---
 % Conclusão
 % ---
-\include{conclusao}
-%\texInclude{conclusao} % Alternativa sem o uso do Makefile padrão
+\include{conclusao} % Inserir com o Makefile padrão
+% \texInclude{conclusao} % Alternativa sem o uso do Makefile padrão
 % ---
 
 % ----------------------------------------------------------
@@ -583,15 +585,16 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % Inclusão dos arquivos referentes aos apêndices
 % ----------------------------------------------------------
 
+% Inserir com o Makefile padrão
 \include{apendiceA}
 \include{apendiceB}
 \include{apendiceC}
 
 % ---
 % Alternativa sem o uso do Makefile padrão
-%\texInclude{apendiceA}
-%\texInclude{apendiceB}
-%\texInclude{apendiceC}
+% \texInclude{apendiceA}
+% \texInclude{apendiceB}
+% \texInclude{apendiceC}
 % ---
 
 % ----------------------------------------------------------
@@ -614,15 +617,16 @@ O autor manifesta reconhecimentos às pessoas e instituições que colaboraram p
 % Inclusão dos arquivos referentes aos anexos
 % ----------------------------------------------------------
 
+% Inserir com o Makefile padrão
 \include{anexoA}
 \include{anexoB}
 \include{anexoC}
 
 % ---
 % Alternativa sem o uso do Makefile padrão
-%\texInclude{anexoA}
-%\texInclude{anexoB}
-%\texInclude{anexoC}
+% \texInclude{anexoA}
+% \texInclude{anexoB}
+% \texInclude{anexoC}
 % ---
 
 % ----------------------------------------------------------
