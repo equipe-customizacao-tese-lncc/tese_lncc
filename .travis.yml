@@ -8,5 +8,6 @@ before_install:
 
 # Execucao do make. Sera feito duas vezes para verificacao de correto funcionamento.
 script:
+        - make clear
         - make tese_lncc.pdf
         - make tese_lncc.pdf
