@@ -1,4 +1,5 @@
 dist: xenial
+sudo: required
 before_install:
         - sudo apt-get update
         # Instalacao do texlive para execucao garantida de pacotes do latex
