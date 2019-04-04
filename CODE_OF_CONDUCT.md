@@ -1,6 +1,6 @@
 # Código de Conduta para Colaboradores
 
-## Nossa compromisso
+## Nosso compromisso
 
 Com o interesse de fomentar uma comunidade aberta e acolhedora,
 nós, como colaboradores e administradores deste projeto, comprometemo-nos
