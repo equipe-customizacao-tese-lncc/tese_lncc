@@ -86,4 +86,4 @@ If errors/bugs or places that could be improved are spotted, everyone is encoura
 However, in order to have an always productive and friendly environment, please follow our [Code of Conduct](https://github.com/equipment-customizacao-tese-lncc/tese_lncc/blob/master/CODE_OF_CONDUCT.md).
 
 Moreover, all Pull Requests need to pass in the Continuous Integration test, which is ran on a
-Ubuntu 16.04 virtual machine mounted on [TravisCI] (https://travis-ci.com/). This ensures that the requested changes do not corrupt the template, increasing the guarantee of to deliver a template free of compilation errors.
+Ubuntu 16.04 virtual machine mounted on [TravisCI](https://travis-ci.com/). This ensures that the requested changes do not corrupt the template, increasing the guarantee of to deliver a template free of compilation errors.
