@@ -6,7 +6,7 @@ BIB = biber
 pwd := $(shell pwd)
 build_dir := $(shell mktemp -d)
 
-all: main.pdf beamer_presentation.pdf
+all: tese_lncc.pdf
 
 .ONESHELL:
 tempdir: $(build_dir)	
