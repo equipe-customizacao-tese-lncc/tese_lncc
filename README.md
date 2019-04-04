@@ -29,6 +29,15 @@ A construção será feita em um diretório temporário em `/ tmp`. Após uma co
 
 Para gerar `tese_lncc.pdf` sem o Makefile padrão, mude os comandos `\include{...}` para comandos `\texInclude{...}` em `tese_lncc.tex` conforme indicado no próprio arquivo. Esta opção é útil, por exemplo, se você gerar a saída através de um editor LaTeX sem opção para configurar um Makefile externo.
 
+## Contribuições e melhorias
+
+Caso perceba alguma falha ou ponto passível de melhorias, todos são encorajados a contribuir no projeto. Isso pode ser feito de duas maneiras:
+
+* Reportando uma Issue;
+* Enviando um Pull Request.
+
+Porém, para termos um ambiente sempre produtivo e amigável, atente para o nosso [Código de Conduta](https://github.com/equipe-customizacao-tese-lncc/tese_lncc/blob/master/CODE_OF_CONDUCT.md).
+
 ---
 
 # LNCC LaTeX Template
@@ -61,3 +70,12 @@ The build will be done in a random temporary directory in `/tmp`. After a succes
 ## Build without Makefile
 
 To build `tese_lncc.pdf` without the default Makefile, change the `\include{...}` commands to `\texInclude{...}` commands in `tese_lncc.tex` as indicate in the latter file. This option is useful, for example, if you generate the output through a LaTeX editor with no option to configure an external Makefile.
+
+## Contributions and improvements
+
+If errors/bugs or places that could be improved are spotted, everyone is encouraged to contribute to the project. This can be done in two ways:
+
+* Reporting an Issue;
+* Sending a Pull Request.
+
+However, in order to have an always productive and friendly environment, please follow our [Code of Conduct](https://github.com/equipment-customizacao-tese-lncc/tese_lncc/blob/master/CODE_OF_CONDUCT.md).
