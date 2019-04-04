@@ -5,17 +5,21 @@ BIB = biber
 
 pwd := $(shell pwd)
 build_dir := $(shell mktemp -d)
+directories = $(shell find . -type d -not -path '*/\.*' -not -path '\.')
 
 all: tese_lncc.pdf
 
 .ONESHELL:
 tempdir: $(build_dir)	
 	echo "Construindo o diretório temporário $(build_dir)"
-	find $(pwd) -type d -exec ln -s {} $(build_dir) \;
-	find $(pwd) -name "*.tex" -type f -exec ln -s {} $(build_dir) \;
-	find $(pwd) -name "*.sty" -type f -exec ln -s {} $(build_dir) \;
-	find $(pwd) -name "*.bib" -type f -exec ln -s {} $(build_dir) \;
-	find $(pwd) -name "*.pdf" -type f -exec ln -s {} $(build_dir) \;
+	for d in $(directories); do \
+		echo $$d; \
+		mkdir -p $(build_dir)/$$d ; \
+		cd $(build_dir)/$$d
+		find $(pwd)/$$d -maxdepth 1 -type f -exec ln -s {} . \; ; \
+	done
+	cd $(build_dir)
+	find $(pwd) -maxdepth 1 -type f -not -path '*/\.*' -exec ln -s {} . \;	
 
 .ONESHELL:
 %.pdf : %.tex tempdir
