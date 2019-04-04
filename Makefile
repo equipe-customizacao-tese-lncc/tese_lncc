@@ -21,6 +21,7 @@ tempdir: $(build_dir)
 %.pdf : %.tex tempdir
 	echo "Compilando $(*F) $< $@"
 	cd $(build_dir)
+	-rm $@
 	$(TEX) -draftmode $<
 	$(BIB) $(*F)
 	$(TEX) $<
