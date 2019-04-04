@@ -1,5 +1,7 @@
 # Template LaTeX LNCC
 
+[![Build Status](https://travis-ci.com/equipe-customizacao-tese-lncc/tese_lncc.svg?branch=master)](https://travis-ci.com/equipe-customizacao-tese-lncc/tese_lncc)
+
 Template LaTeX para criação de teses e dissertações do LNCC.
 
 ## Estrutura de diretórios
@@ -37,6 +39,9 @@ Caso perceba alguma falha ou ponto passível de melhorias, todos são encorajado
 * Enviando um Pull Request.
 
 Porém, para termos um ambiente sempre produtivo e amigável, atente para o nosso [Código de Conduta](https://github.com/equipe-customizacao-tese-lncc/tese_lncc/blob/master/CODE_OF_CONDUCT.md).
+
+Além disso, todas as contribuições de Pull Request devem antes passar no teste de Integração Contínua executado em uma 
+máquina virtual Ubuntu 16.04 montada no [TravisCI](https://travis-ci.com/). Isso garante que as modificações inseridas não gerem um template corrompido, aumentando a garantia de entrega de um template livre de erros de compilação.
 
 ---
 
@@ -79,3 +84,6 @@ If errors/bugs or places that could be improved are spotted, everyone is encoura
 * Sending a Pull Request.
 
 However, in order to have an always productive and friendly environment, please follow our [Code of Conduct](https://github.com/equipment-customizacao-tese-lncc/tese_lncc/blob/master/CODE_OF_CONDUCT.md).
+
+Moreover, all Pull Requests need to pass in the Continuous Integration test, which is ran on a
+Ubuntu 16.04 virtual machine mounted on [TravisCI] (https://travis-ci.com/). This ensures that the requested changes do not corrupt the template, increasing the guarantee of to deliver a template free of compilation errors.
