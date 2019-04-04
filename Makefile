@@ -1,26 +1,37 @@
-.PHONY: all clear
+.PHONY: tempdir all clear
 
-doc_name = tese_lncc
-TEX = pdflatex -interaction=nonstopmode
-BIB = "bibtex"
+TEX = pdflatex -interaction=nonstopmode -shell-escape
+BIB = biber
+
 pwd := $(shell pwd)
 build_dir := $(shell mktemp -d)
+directories = $(shell find . -type d -not -path '*/\.*' -not -path '\.')
 
-all:	clear
-	@echo "Building at" $(build_dir)
-	# mirror the src dir at temp build dir
-	( find $(pwd) -name "tex/*" -type f -exec ln -s {} $(build_dir) \;)
-	( find $(pwd) -name "fig/*" -type f -exec ln -s {} $(build_dir) \;)
-	( find $(pwd) -name "*" -type f -exec ln -s {} $(build_dir) \;)
-	# build at temp build dir
-	-( cd $(build_dir) && $(TEX) -draftmode $(doc_name).tex )
-	-( cd $(build_dir) && $(BIB) $(doc_name).aux )	
-	-( cd $(build_dir) && $(TEX) -draftmode $(doc_name).tex )
-	-( cd $(build_dir) && $(TEX) $(doc_name).tex )
-	# copy the output to here
-	-( cd $(build_dir) && cp -f $(doc_name).pdf $(pwd) )
+all: tese_lncc.pdf
+
+.ONESHELL:
+tempdir: $(build_dir)	
+	echo "Construindo o diretório temporário $(build_dir)"
+	for d in $(directories); do \
+		echo $$d; \
+		mkdir -p $(build_dir)/$$d ; \
+		cd $(build_dir)/$$d
+		find $(pwd)/$$d -maxdepth 1 -type f -exec ln -s {} . \; ; \
+	done
+	cd $(build_dir)
+	find $(pwd) -maxdepth 1 -type f -not -path '*/\.*' -exec ln -s {} . \;	
+
+.ONESHELL:
+%.pdf : %.tex tempdir
+	echo "Compilando $(*F) $< $@"
+	cd $(build_dir)
+	-rm $@
+	$(TEX) -draftmode $<
+	$(BIB) $(*F)
+	$(TEX) $<
+	$(TEX) $<
+	cp $@ $(pwd)
 
 clear:
 	@echo "Clearing output pdf"
 	-( rm -f "$(pwd)/$(doc_name).pdf" )
-	

@@ -15,23 +15,15 @@ Template LaTeX para criação de teses e dissertações do LNCC.
   	  +-*.png, *.jpg,     gráficos e figuras do usuário
 ```
 
-## Compilação com Makefile padrão
+## Compilação com Makefile
 
 Para compilar `tese_lncc.pdf`, digite no terminal:
 
-`$ make`
+`$ make tese_lncc.pdf`
 
-Você pode usar qualquer editor para editar arquivos .tex. No **sublime**, por exemplo, você pode usar`Ctrl+B` a qualquer momento para gerar o arquivo final.
+Qualquer arquivo `.pdf` pode ser construído a partir de seu `.tex`. Por exemplo, se `slides.tex` é uma apresentação beamer, ela pode ser construída com `make slides.pdf`.
 
-A construção será feita em um diretório temporário em `/ tmp`. Após uma construção bem-sucedida, o pdf de saída é copiado para o diretório do projeto, deixando a árvore de origem limpa, sem arquivos temporários auxiliares.
-
-A estrutura de diretórios de compilação será limpa e marcada pela vinculação simbólica, portanto inclua imagens ou outros arquivos .tex sem subdiretórios. Ex.:
-
- * ~~`\include{tex/capitulo2}`~~ errado
- * `\include{capitulo2}` correto
-
- * ~~`\includegraphics[width=\textwidth]{fig/figA.jpg}`~~ errado
- * `\includegraphics[width=\textwidth]{figA.jpg}` correto
+A construção será feita em um diretório temporário em `/ tmp`. Após uma construção bem-sucedida, o pdf de saída é copiado para o diretório do projeto, deixando a árvore de origem limpa, sem arquivos temporários auxiliares. Toda a estrutura de diretórios locais será replicada num diretório temporário através de links simbólicos.
 
 ## Compilação sem o Makefile padrão
 
@@ -56,23 +48,15 @@ LaTeX Template for creation of thesis and dissertations for LNCC.
   	  +-*.png, *.jpg,     graphics files included by tese_lncc.tex
 ```
 
-## Build with the Default Makefile
+## Build with the Makefile
 
 To build `tese_lncc.pdf`, type in a terminal:
 
 `$ make`
 
-You can use any editor to edit tex files. In **sublime**, for example, you can `Ctrl+B` any moment to start the build.
+Any `.pdf` file can be build from `.tex` file. For example, if `slides.tex` is a beamer presentation, it can be build with `make slides.pdf`.
 
-The build will be done in a random temporary directory in `/tmp`. After a successfull build, the output pdf is copied to project directory, letting the source tree clean, without auxiliary temporary files.
-
-The build directory structure will be flat, and maked by symbolic linkage, so include images or other tex files without subdirectories. Ex.:
-
- * ~~`\include{tex/capitulo2}`~~ wrong
- * `\include{capitulo2}` correct
-
- * ~~`\includegraphics[width=\textwidth]{fig/figA.jpg}`~~ wrong
- * `\includegraphics[width=\textwidth]{figA.jpg}` correct
+The build will be done in a random temporary directory in `/tmp`. After a successfull build, the output pdf is copied to project directory, letting the source tree clean, without auxiliary temporary files. All directory structure will be replicated in a temporary directory through symbolic links.
 
 ## Build without Makefile
 
