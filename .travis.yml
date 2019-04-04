@@ -5,7 +5,7 @@ before_install:
         # Instalacao do texlive para execucao garantida de pacotes do latex
         - sudo apt-get install texlive
         # Instalacao dos requisitos minimos para o abntex2
-        - apt-get install texlive-publishers texlive-lang-portuguese texlive-latex-extra texlive-fonts-recommended
+        - sudo apt-get install texlive-publishers texlive-lang-portuguese texlive-latex-extra texlive-fonts-recommended
 
 # Execucao do make. Sera feito duas vezes para verificacao de correto funcionamento.
 script:
