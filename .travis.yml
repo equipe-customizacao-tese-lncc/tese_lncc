@@ -1,0 +1,14 @@
+dist: xenial
+sudo: required
+before_install:
+        - sudo apt-get update
+        # Instalacao do texlive para execucao garantida de pacotes do latex
+        - sudo apt-get install texlive-full
+        # Instalacao dos requisitos minimos para o abntex2
+        - sudo apt-get install texlive-publishers texlive-lang-portuguese texlive-latex-extra texlive-fonts-recommended
+
+# Execucao do make. Sera feito duas vezes para verificacao de correto funcionamento.
+script:
+        - make clear
+        - make tese_lncc.pdf
+        - make tese_lncc.pdf
