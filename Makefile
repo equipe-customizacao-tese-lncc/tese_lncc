@@ -1,7 +1,7 @@
 .PHONY: tempdir all clear
 
 TEX = pdflatex -interaction=nonstopmode -shell-escape
-BIB = biber
+BIB = bibtex
 
 pwd := $(shell pwd)
 build_dir := $(shell mktemp -d)
