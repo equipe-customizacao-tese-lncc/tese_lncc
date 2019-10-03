@@ -1,6 +1,8 @@
 # Template LaTeX LNCC
 
-[![Build Status](https://travis-ci.com/equipe-customizacao-tese-lncc/tese_lncc.svg?branch=master)](https://travis-ci.com/equipe-customizacao-tese-lncc/tese_lncc)
+| Platform                               	| Build status 	|
+|-----------------------------------------	|--------------	|
+| Ubuntu 16.04 LTS and 18.04 LTS 	        |  [![Build Status](https://travis-ci.com/equipe-customizacao-tese-lncc/tese_lncc.svg?branch=master)](https://travis-ci.com/equipe-customizacao-tese-lncc/tese_lncc)            	|
 
 Template LaTeX para criação de teses e dissertações do LNCC.
 
