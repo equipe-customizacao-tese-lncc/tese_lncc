@@ -1,5 +1,13 @@
-dist: xenial
-sudo: required
+language: generic
+matrix:
+    include:
+      - os: linux
+        dist: xenial
+        sudo: required
+      - os: linux
+        dist: bionic
+        sudo: required
+
 before_install:
         - sudo apt-get update
         # Instalacao do texlive para execucao garantida de pacotes do latex
